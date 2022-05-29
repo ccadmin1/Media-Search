@@ -4,7 +4,7 @@ RUN pip install --upgrade pip
 
 ENV USER botx
 ENV HOME /home/$USER
-ENV BOT $HOME/media-search-bot
+ENV BOT $HOME/media-search
 
 RUN useradd -m $USER
 RUN mkdir -p $BOT
